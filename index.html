@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badu Judah Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">Judah</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="darkModeToggle">🌙</button>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <img src="profile.jpg" alt="Badu Judah" class="profile-img">
+
+    <h1>Hello, I'm <span>Badu Judah</span></h1>
+    <p>Computer Engineering Student</p>
+
+    <a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<section id="about" class="fade-in">
+    <h2>About Me</h2>
+    <p>
+        I am passionate about electronics, programming, and innovation.
+        I build projects in web development, MATLAB, and electrical systems.
+    </p>
+</section>
+
+<section id="projects" class="fade-in">
+    <h2>Project</h2>
+
+    <div class="project">
+        <h3>DC Motor Speed Control</h3>
+        <p>Designed and analyzed motor control systems.</p>
+    </div>
+</section>
+
+<section id="contact" class="fade-in">
+    <h2>Contact Me</h2>
+
+    <p><strong>Phone:</strong> 0542262437</p>
+
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Badu Judah</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
